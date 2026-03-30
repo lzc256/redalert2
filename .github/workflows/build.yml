@@ -2,9 +2,9 @@ name: Build and Archive RedAlert2 Web
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main" "build" "dev" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "main" "build" "dev" ]
   workflow_dispatch: 
 
 jobs:
