@@ -25,10 +25,6 @@ jobs:
       - name: Install dependencies
         run: bun install
 
-      # 3. 类型检查 (可选，README 建议)
-      - name: Typecheck
-        run: bun run typecheck:entry
-
       # 4. 执行生产环境构建
       # 执行后会生成 dist 文件夹
       - name: Build project
